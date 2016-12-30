@@ -1,9 +1,9 @@
-package model
+package model.ladder
 
 import javax.annotation.Generated
 import com.google.gson.annotations.SerializedName
 
-class Entry(var account: Account?,var character: Character?, var dead: Boolean?,
+class Entry(var account: Account?, var character: Character?, var dead: Boolean?,
             var online: Boolean?, var rank: Long?) {
 
     override fun equals(other: Any?): Boolean {

@@ -1,4 +1,4 @@
-package model
+package model.ladder
 
 import javax.annotation.Generated
 import com.google.gson.annotations.SerializedName
