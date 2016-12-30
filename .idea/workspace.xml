@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebcf73e4-d088-4c10-b742-f33d005fcfdf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utility/tests/TestLadderProducer.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utility/tests/TestRunner.kt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SimplePoE/utility/TestKt.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SimplePoE/utility/tests/TestRunnerKt.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utility/tests/TestRunner.kt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SimplePoE/META-INF/SimplePoE.kotlin_module" afterPath="$PROJECT_DIR$/out/production/SimplePoE/META-INF/SimplePoE.kotlin_module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SimplePoE/utility/tests/TestLadderProducer.class" afterPath="$PROJECT_DIR$/out/production/SimplePoE/utility/tests/TestLadderProducer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SimplePoE.iml" afterPath="$PROJECT_DIR$/SimplePoE.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utility/tests/TestLadderProducer.kt" afterPath="$PROJECT_DIR$/src/utility/tests/TestLadderProducer.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,21 +70,11 @@
       <file leaf-file-name="TestLadderProducer.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/utility/tests/TestLadderProducer.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="357">
+              <caret line="21" column="88" lean-forward="false" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
               <folding>
-                <element signature="e#23#100#0" expanded="true" />
+                <element signature="e#23#132#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestRunner.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utility/tests/TestRunner.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -125,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/src/model/ladder/Ladder.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+              <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -166,8 +156,8 @@
         <option value="$PROJECT_DIR$/src/utility/Test.kt" />
         <option value="$PROJECT_DIR$/src/utility/tests/Test.kt" />
         <option value="$PROJECT_DIR$/src/utility/tests/UnitTests.kt" />
-        <option value="$PROJECT_DIR$/src/utility/tests/TestLadderProducer.kt" />
         <option value="$PROJECT_DIR$/src/utility/tests/TestRunner.kt" />
+        <option value="$PROJECT_DIR$/src/utility/tests/TestLadderProducer.kt" />
       </list>
     </option>
   </component>
@@ -352,6 +342,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="utility.tests" />
       <option name="MAIN_CLASS_NAME" value="utility.tests.TestLadderProducer" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestRunnerKt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="utility.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SimplePoE" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="utility.tests" />
+      <option name="MAIN_CLASS_NAME" value="utility.tests.TestRunnerKt" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -570,14 +586,16 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Kotlin.utility.tests.TestKt" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TestLadderProducer" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestRunnerKt" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="JUnit.TestLadderProducer" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.utility.tests.TestKt" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestRunnerKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.utility.tests.TestKt" />
       </list>
     </recent_temporary>
   </component>
@@ -604,6 +622,18 @@
     <history-entry file="TestLadderProducer - 2016.12.30 at 20h 38m 04s.xml">
       <configuration name="TestLadderProducer" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestLadderProducer - 2016.12.30 at 20h 43m 04s.xml">
+      <configuration name="TestLadderProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLadderProducer - 2016.12.30 at 20h 44m 55s.xml">
+      <configuration name="TestLadderProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunnerKt - 2016.12.30 at 20h 38m 28s.xml">
+      <configuration name="TestRunnerKt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunnerKt - 2016.12.30 at 20h 39m 39s.xml">
+      <configuration name="TestRunnerKt" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -618,7 +648,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -779,14 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/ladder/Ladder.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utility/Network.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -817,18 +839,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utility/tests/TestRunner.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="85">
+          <caret line="5" column="72" lean-forward="false" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ladder/Ladder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utility/tests/TestLadderProducer.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="357">
+          <caret line="21" column="88" lean-forward="false" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
           <folding>
-            <element signature="e#23#100#0" expanded="true" />
+            <element signature="e#23#132#0" expanded="true" />
           </folding>
         </state>
       </provider>
