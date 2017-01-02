@@ -16,4 +16,11 @@ class TestLeagueProducer {
         Assert.assertNotNull(league)
         Assert.assertTrue(league.description?.isNotEmpty() as Boolean)
     }
+
+    @Test
+    fun produceWithLadder(){
+        val league = LeagueProducer().produceWithLadder("Breach")
+        Assert.assertNotNull(league.ladder)
+        Assert.assertTrue(league.ladder.entries?.isNotEmpty() as Boolean)
+    }
 }

@@ -6,4 +6,5 @@ data class League(var description: String?,  var endAt: String?,var event: Boole
                   var id: String?,var registerAt: String?,
                   var rules: List<Rule>?,var startAt: String?,var url: String? ) {
 
+
 }
