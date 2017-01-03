@@ -23,4 +23,10 @@ class TestLeagueProducer {
         Assert.assertNotNull(league.ladder)
         Assert.assertTrue(league.ladder.entries?.isNotEmpty() as Boolean)
     }
+
+    @Test
+    fun produceWithLimit(){
+        val league = LeagueProducer().produce("Breach",1,40,50);
+        Assert.assertEquals(league.ladder.entries?.size,50)
+    }
 }
