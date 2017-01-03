@@ -23,6 +23,21 @@ class LeagueProducer {
         return result
     }
 
+    fun produce(name: String?, ladder: Int? = 1,ladderOffset: Int?,ladderLimit: Int?) : LadderLeague{
+        val json = URL(Network.leaguesUrl +
+                "$name?ladder=$ladder&ladderOffset=$ladderOffset" +
+                "&ladderLimit=$ladderLimit").readText()
+        val result = Network.gson.fromJson(json, LadderLeague::class.java)
+        return result
+    }
+
+    fun produce(name: String?, ladder: Int? = 1,ladderLimit: Int?) : LadderLeague{
+        val json = URL(Network.leaguesUrl +
+                "$name?ladder=$ladder&ladderLimit=$ladderLimit").readText()
+        val result = Network.gson.fromJson(json, LadderLeague::class.java)
+        return result
+    }
+
     fun produceWithLadder(name: String?) : LadderLeague{
         val json = URL(Network.leaguesUrl +"$name?ladder=1").readText()
         val result = Network.gson.fromJson(json, LadderLeague::class.java)
